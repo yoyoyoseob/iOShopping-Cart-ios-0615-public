@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6D20EE1FB7134839A8C671A3 /* libPods-iOShoppingCartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */; };
+		7109CCB81B26001400A0C808 /* FISCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109CCB71B26001400A0C808 /* FISCart.m */; };
+		7109CCBB1B26004900A0C808 /* FISItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7109CCBA1B26004900A0C808 /* FISItem.m */; };
 		725C3280191BEA500050AE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C327F191BEA500050AE4C /* Foundation.framework */; };
 		725C3282191BEA500050AE4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3281191BEA500050AE4C /* CoreGraphics.framework */; };
 		725C3284191BEA500050AE4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3283191BEA500050AE4C /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7109CCB61B26001400A0C808 /* FISCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCart.h; sourceTree = "<group>"; };
+		7109CCB71B26001400A0C808 /* FISCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCart.m; sourceTree = "<group>"; };
+		7109CCB91B26004900A0C808 /* FISItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISItem.h; sourceTree = "<group>"; };
+		7109CCBA1B26004900A0C808 /* FISItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItem.m; sourceTree = "<group>"; };
 		725C327C191BEA500050AE4C /* iOShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C327F191BEA500050AE4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		725C3281191BEA500050AE4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				725C328E191BEA500050AE4C /* FISAppDelegate.h */,
+				7109CCB91B26004900A0C808 /* FISItem.h */,
+				7109CCBA1B26004900A0C808 /* FISItem.m */,
+				7109CCB61B26001400A0C808 /* FISCart.h */,
+				7109CCB71B26001400A0C808 /* FISCart.m */,
 				725C328F191BEA500050AE4C /* FISAppDelegate.m */,
 				725C3291191BEA500050AE4C /* Images.xcassets */,
 				725C3286191BEA500050AE4C /* Supporting Files */,
@@ -295,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				725C328C191BEA500050AE4C /* main.m in Sources */,
+				7109CCBB1B26004900A0C808 /* FISItem.m in Sources */,
 				725C3290191BEA500050AE4C /* FISAppDelegate.m in Sources */,
+				7109CCB81B26001400A0C808 /* FISCart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
